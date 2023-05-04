@@ -65,7 +65,7 @@ app.use(
           shopify.webhook.create({
             topic: 'orders/create',
             address:
-              'https://89d1-113-190-27-55.ngrok-free.app/webhook/order/new',
+              'https://26e9-113-190-27-55.ngrok-free.app/webhook/order/new',
             format: 'json'
           }),
           shopify.scriptTag.create({
